@@ -12,23 +12,25 @@
 </script>
 <form method="post">
 <div>
-<label for="#name">Name</label>
+<label for="name">Name</label>
 <input type="text" name="#name" id="#name" placeholder="Name" required >
 </div>
 <div>
-<label for="#email">Email</label>
+<label for="email">Email</label>
 <input type="email" name="#email" id="#email" placeholder="Email" required >
 </div>
 <div>
-<label for="#gender">Gender</label>
+<label for="gender">Gender</label>
 <input name="#gender" type="radio" id="#gender_m" value="Male" >Male
 <input name="#gender" type="radio" id="#gender_f" value="Female" >Female
 </div>
 	<div>
-<label for="#cars">Car Brands</label>
-<input type="checkbox" value="BMW" name="bmw">Apple
-<input type="checkbox" value="Audi" name="audi">Asus
-<input type="checkbox" value="Mercedes" name="mercedes">HP
+<label for="cars">Car Brands</label>
+		<select id="cars" name="cars" placeholder=" --Please choose an option--" >
+<option value="BMW" name="bmw">Apple</option>
+<option value="Audi" name="audi">Asus</option>
+<option value="Mercedes" name="mercedes">HP</option>
+		</select>
 </div>
 	<div>
 		<label for="#age">Age</label>
